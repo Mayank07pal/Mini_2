@@ -1,0 +1,15 @@
+{
+  "input_dir": "C:\\Users\\mayan\\Desktop\\Mini Project\\AutoEncoder\\Dataloder\\US_Class1_Train_Input",
+  "clean_dir": "C:\\Users\\mayan\\Desktop\\Mini Project\\AutoEncoder\\Dataloder\\US_Class1_Train_Output",
+  "files_found": 5000,
+  "files_evaluated": 5000,
+  "missing_clean": 0,
+  "snr": 16.30066911130486,
+  "snr_std": 3.1473658071686854,
+  "si_sdr": 16.17763738214972,
+  "si_sdr_std": 3.234351834715565,
+  "stoi": 0.8818329903680598,
+  "stoi_std": 0.07479643656187296,
+  "pesq": 2.1468005479812624,
+  "pesq_std": 0.5607040449525773
+}
