@@ -1,0 +1,23 @@
+{
+  "model_info": {
+    "architecture": "CleanUNet",
+    "format": "FP32 (single precision)",
+    "parameters": 46071937,
+    "model_size_mb_fp32": 184.287748,
+    "model_size_mb_fp16": 92.143874
+  },
+  "optimization": {
+    "fp16_conversion": "Applied (50% memory reduction)",
+    "quantization_type": "FP16 only (Conv1D-heavy model)",
+    "why_no_int8": "Conv1D layers not supported by PyTorch quantize_dynamic",
+    "onnx_export": "Yes"
+  },
+  "quality_metrics": {
+    "snr_vs_noisy": -20.86369514465332,
+    "snr_vs_denoised_pytorch": 21.882612705230713,
+    "si_sdr_noisy": 6.897172826681617,
+    "si_sdr_denoised_pytorch": 22.216859404272128,
+    "snr_vs_denoised_onnx": -19.94330406188965,
+    "si_sdr_denoised_onnx": 22.242611353340735
+  }
+}
